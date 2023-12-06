@@ -1,9 +1,8 @@
 import { PetProducts } from "@/types";
-import { ProductsCategory } from "@/constants";
 
 export const getProductsByCategory = (
   products: PetProducts[],
-  category: ProductsCategory,
+  category: string,
 ): PetProducts[] => {
   return products.filter((product) => product.category === category);
 };

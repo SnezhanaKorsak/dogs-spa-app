@@ -4,7 +4,6 @@ export const resolvers = {
       const res = await fetch(
         `${process.env.NEXT_PUBLIC_MOCK_API_URL}/services`,
         {
-          method: "GET",
           headers: {
             "Content-Type": "application/json",
           },
@@ -18,7 +17,6 @@ export const resolvers = {
       const res = await fetch(
         `${process.env.NEXT_PUBLIC_MOCK_API_URL}/products`,
         {
-          method: "GET",
           headers: {
             "Content-Type": "application/json",
           },

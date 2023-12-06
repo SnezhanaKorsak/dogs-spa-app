@@ -2,13 +2,12 @@ import React from "react";
 import { getClient } from "@/lib/client";
 import { PetProducts } from "@/types";
 import { productsQuery } from "@/lib/graphql/queries";
-import { ProductsCategory } from "@/constants";
 import { getProductsByCategory } from "@/utils";
 
-export const revalidate = 3600;
+//export const revalidate = 3600;
 
 type Props = {
-  category: ProductsCategory;
+  category: string;
 };
 
 export const Products: React.FC<Props> = async ({ category }) => {

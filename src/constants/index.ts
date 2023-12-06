@@ -30,6 +30,6 @@ export const headerNavLinks = [
 ];
 
 export enum ProductsCategory {
-  DogCollars = "dog collars",
-  PetCarriers = "animal carry ons",
+  DogCollars = "dog-collars",
+  PetCarriers = "animal-carry-ons",
 }
