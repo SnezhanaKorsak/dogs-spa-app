@@ -4,3 +4,12 @@ export type SpaService = {
   description: string;
   price: string;
 };
+
+export type PetProducts = {
+  id: string;
+  category: string;
+  image: string;
+  description: string;
+  collection: string;
+  price: string;
+};
