@@ -4,4 +4,3 @@ export type SpaService = {
   description: string;
   price: string;
 };
-
